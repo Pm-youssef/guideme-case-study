@@ -1,6 +1,6 @@
 # GuideMe: case study
 
-GuideMe connects tourists in Egypt with licensed local guides. You open the app, pick a guide by language, price and rating, and book them for now or for a later date. You can watch the guide come to you on the map, chat with them, and pay by card or cash. I designed, built and released the whole product on my own: two mobile apps, the API, the admin dashboard and the website.
+GuideMe connects tourists in Egypt with licensed local guides. You open the app, pick a guide by language, price and rating, and book them for now or for a later date. You can watch the guide come to you on the map, chat with them, and pay by card or cash. I write the code for both mobile apps, the API, the admin dashboard and the website, and I handle the store releases. I work with AI coding tools.
 
 The source code is private because it is a live business. This repository shows what the product does and how it is built. If you are thinking about hiring me, I can give you a walkthrough of the real code on a call.
 
@@ -18,7 +18,7 @@ The source code is private because it is a live business. This repository shows 
 - 12 languages in the tourist app, including Arabic with full right-to-left layout
 - 25 partner hotels and hostels signed up to the referral program (October 2026)
 - 95 automated tests that run before every push and again on GitHub Actions
-- 356 commits since June 2026
+- 356 commits in the current repository (since June 2026)
 
 ## The tourist app
 
@@ -71,7 +71,7 @@ flowchart LR
 
 ## How I work
 
-The product is small, but I run it like a team would. Every change:
+Every change:
 
 1. gets a dated line in the changelog for the part it touches. A git hook refuses the commit without one.
 2. names the test that covers it. The pre-push hook runs the tests for every part touched, and GitHub Actions runs them all again.
